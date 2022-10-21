@@ -18,11 +18,24 @@ body {
     overflow: hidden;
 }
 
-.surface{
-    height: 140px;
-    width: 500%;
-    background: url("./img/19836-removebg-preview.png");
+.catarea{
+    display: flex;
+    justify-content: space-between;
+}
 
+.cat2{
+    height: 20vh;
+    width: 10vw;
+    margin-left: 50vw;
+    padding-right: 0%;
+    position: absolute;
+}
+
+.cat1{
+    height: 20vh;
+    width: 10vw;
+    margin-top: 3vh;
+    position: absolute;
 }
 
 .player{

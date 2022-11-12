@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Secular One', sans-serif;
     overflow: hidden;
+    width: auto;
     
 }
 
@@ -49,7 +50,7 @@ a{
     height: 80vh;
     width: 70vw;
     border: 1px solid black;
-    margin: 5rem auto;
+    margin: 2rem auto;
     background: url("./img/19837.jpg");
     background-size: cover;
     box-shadow: 1px 2px 60px rgba(0,0,0,0.4);

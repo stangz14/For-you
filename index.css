@@ -1,188 +1,63 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    font-family: 'Secular One', sans-serif;
     overflow: hidden;
 }
 
-
-.night {
-    height: 80vh;
-    width: 70vw;
-    border: 1px solid black;
-    margin: 5rem auto;
-    background: url("./img/19837.jpg");
-    background-size: cover;
-    position: relative;
-    box-shadow: 1px 2px 60px rgba(0,0,0,0.4);
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.catarea{
+.nav-bar{
+    font-family: 'Secular One', sans-serif;
+    background-color:black;
+    height: 3.5rem;
+    color: white;
     display: flex;
-    justify-content: space-between;
 }
 
-.cat2{
-    height: 20vh;
-    width: 10vw;
-    margin-left: 50vw;
-    padding-right: 0%;
-    position: absolute;
+.web-name{
+    font-size: 32px;
+}
+.nav-logo{
+    margin-left: 0.5rem;
+    /* background-color: gold; */
+    width: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
-.cat1{
-    height: 20vh;
-    width: 10vw;
-    margin-top: 3vh;
-    position: absolute;
-}
-
-.player{
-    padding-left: 2.5vw;
-    padding-top: 1.5vw;
-    height: 55vh;
-    width: 25vw;
+.nav-detail{
+    width: 90%;
+    /* background-color: aqua; */
     display: flex;
-    flex-direction: column;
+    gap: 0.5rem
 }
 
-.wrapper{
-    border: 1px solid transparent;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+.top-box{
+    margin-top: 2.5rem;
+    /* display: flex; */
+    /* background-color: #4286f4; */
+    height: 5rem;
+    margin-left: 5rem;
 }
 
-.details{
-    display: flex;
+.hi{
+    font-size: 64px;
+    font-family: 'Secular One', sans-serif;
+}
+.happy{
+    font-size: 24px;
+    margin-top: auto;
+    /* background-color: aqua; */
+}
+.nav-button{
+    font-size: 28;
+    margin-left: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* background-color: #fbc2eb; */
+}
+/* .photo-button{
+    background-color: #a6c1ee;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-}
+} */
 
-.track-art{
-    margin: 20px;
-    height: 150px;
-    width: 150px;
-    border: 2px solid #fff;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    -moz-box-shadow: 0px 6px 5px #ccc;
-    -webkit-box-shadow:0px 6px 5px #ccc;
-    box-shadow: 0px 6px 5px #ccc;
-    -moz-border-radius:190px;
-    -webkit-border-radius:190px;
-    border-radius: 190px;
-}
-.now-playing{
-    font-size: 1rem;
-}
-.track-name{
-    font-size: 1rem;
-}
-.buttons{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 1px;
-    justify-content: center;
-}
-.active{
-    color: black;
-}
-.repeat-track,
-.random-track,
-.playpause-track,
-.prev-track,
-.next-track{
-    padding: 10px;
-    opacity: 0.8;
-    transition: opacity .2s;
-}
-.repeat-track:hover,
-.random-track:hover,
-.playpause-track:hover,
-.prev-track:hover,
-.next-track:hover{
-    opacity: 1.0;
-}
-.slider_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.seek_slider,
-.volume_slider{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    height: 5px;
-    background: #83a9ff;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
-.seek_slider::-webkit-slider-thumb,
-.volume_slider::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border: 3px solid #3774ff;
-    cursor: pointer;
-    border-radius: 100%;
-}
-.seek_slider:hover,
-.volume_slider:hover{
-    opacity: 1.0;
-}
-.seek_slider{
-    width: 50%;
-}
-.volume_slider{
-    width: 30%;
-}
-.current-time,
-.total-duration{
-    padding: 10px;
-}
-i.fa-volume-down,
-i.fa-volume-up{
-    padding: 10px;
-}
-i,
-i.fa-play-circle,
-i.fa-pause-circle,
-i.fa-step-forward,
-i.fa-step-backward{
-    cursor: pointer;
-}
-.randomActive{
-    color: black;
-}
-.rotate{
-    animation: rotation 8s infinite linear;
-}
-@keyframes rotation{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(359deg);
-    }
-}
-
-@keyframes animate{
-    50%{
-        height: 20%;
-        background: #4286f4;
-    }
-    100%{
-        height: 100%;
-    }
-}

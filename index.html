@@ -8,6 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
     <script src="script.js" defer></script>
+    <script src="index.js" defer></script>
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,22 +30,25 @@
             <a class="nav-button" href="./music.html">music</a>
         </div>
         <div class="hamburger">
-            <i class="fa-solid fa-bars"></i>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+              </div>
+            <!-- <i class="fa-solid fa-bars"></i> -->
         </div>
     </nav>
-    <div class="ham-bar">
+    <!-- <div class="ham-bar">
         <ul>
-            <li><a>photos</a></li>
-            <li><a>music</a></li>
+            <li><a class="nav-button" href="#">photos</a></li>
+            <li> <a class="nav-button" href="./music.html">music</a></li>
         </ul>
-    </div>
+    </div> -->
     <div class="top-box">
         <p class="hi">Hi,</p>
         <p class="happy">happy two mouth anniverasry</p>
     </div>
     <div class="middle">
         <div class="video-bar">
-            <video width="500px" height="500px" loop muted autoplay="autoplay">
+            <video class="video-img" loop muted autoplay="autoplay">
                 <source src="./video/b88d6dc6-954f-4b18-925a-55d3342a6410.mp4" type="video/mp4">
             </video>
         </div>

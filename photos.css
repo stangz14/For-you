@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.nav-bar{
+    font-family: 'Secular One', sans-serif;
+    background-color:black;
+    height: 3.5rem;
+    color: white;
+    display: flex;
+}
+
+.web-name{
+    font-size: 32px;
+}
+.nav-logo{
+    margin-left: 0.5rem;
+    /* background-color: gold; */
+    width: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.nav-detail{
+    width: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 0.5rem
+}
+.nav-button{
+    font-size: 28;
+    margin-left: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* background-color: #fbc2eb; */
+}
+/* .photo-button{
+    background-color: #a6c1ee;
+    align-items: center;
+    justify-content: center;
+}
+
+*/
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.name-user{
+    margin-left: auto;
+    margin-right: auto;
+}
+

@@ -7,8 +7,9 @@
     <title>For you</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="hamburger.css">
     <script src="script.js" defer></script>
-    <script src="index.js" defer></script>
+    <script src="hamburger.js" defer></script>
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -35,7 +36,15 @@
               </div>
             <!-- <i class="fa-solid fa-bars"></i> -->
         </div>
+        
     </nav>
+    <div class="tab-menu " id="tab-Menu">
+        <ul class="tab-menu-bar">
+            <li class="button-menu"><a class="button-menu" href="./index.html">Home</a></li>
+            <li class="button-menu"><a class="button-menu" href="#">photos</a></li>
+            <li class="button-menu"><a class="button-menu" href="./music.html">music</a></li>
+        </ul>
+    </div>
     <!-- <div class="ham-bar">
         <ul>
             <li><a class="nav-button" href="#">photos</a></li>
@@ -48,8 +57,9 @@
     </div>
     <div class="middle">
         <div class="video-bar">
-            <video class="video-img" loop muted autoplay="autoplay">
+            <video class="video-img" loop muted autoplay="autoplay" controls>
                 <source src="./video/b88d6dc6-954f-4b18-925a-55d3342a6410.mp4" type="video/mp4">
+                <source src="./music/VID_159670828_052001_493.ogg" type="videp/ogg">
             </video>
         </div>
     </div>

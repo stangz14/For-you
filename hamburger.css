@@ -1,0 +1,147 @@
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* border: 3px solid #fff; */
+  }
+  .menu-btn__burger {
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before {
+    transform: translateY(-10px);
+  }
+  .menu-btn__burger::after {
+    transform: translateY(10px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+  .hamburger{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2.5rem;
+    display: none;
+}
+
+.tab-menu{
+  position: absolute;
+  background-color: black;
+  right: 0%;
+  top:2.5rem;
+  padding: 5px;
+  height: 100%;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  display: none;
+
+
+
+  
+}
+
+.tab-menu.open{
+  /* -webkit-animation-name: open; */
+  animation-name: open;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+
+}
+.tab-menu.close{
+  animation-name: move;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@keyframes open {
+  from {
+    right: -30%;
+  }
+  to {
+    right: 0%;
+  }
+}
+@keyframes move {
+  from {
+    right: 0%;
+  }
+  to {
+    right: -50%;
+  }
+}
+
+.button-menu{
+  margin-top: 5px;
+  border: none;
+  text-align: center;
+  transition: 0.3s;
+  padding: 3px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.button-menu:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width:600px) {    
+    .hamburger{
+        display: block;
+    }
+    .middle{
+        margin-bottom: 2rem;
+    }
+    .nav-button{
+        display: none;
+    }
+    .web-name{
+        font-size: 20px;
+    }
+    .nav-logo{
+        width: 30%;
+    }
+    .nav-bar{
+        height: 2.5rem;
+    }
+
+    
+}
+
+ul {
+  list-style-type: none;
+}

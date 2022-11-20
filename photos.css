@@ -56,3 +56,39 @@ a{
     margin-right: auto;
 }
 
+.photo{
+    margin-top: 0.5rem;
+    /* grid-template-columns: 30px 200px 100px 100px; */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-gap: 5px;
+}
+
+
+img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:600px) { 
+
+    .photo{
+        margin-top: 0.5rem;
+        /* grid-template-columns: 30px 200px 100px 100px; */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        grid-gap: 5px;
+    }
+    img{
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

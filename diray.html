@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For you</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="hamburger.css">
+    <link rel="stylesheet" href="diray.css">
+    <!-- <script src="script.js" defer></script> -->
+    <script src="hamburger.js" defer></script>
+    <script src="diray.js" defer></script>
+
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css" integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/v4-font-face.min.css" integrity="sha512-ueEJBIkl0DBM2fA8eS/o12U3l+ZUFn32IUY4jIaTZnNtKR4ktQw3cE/tx/tFIYJuBm4EVT7WUMqIXP1TUN0boA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-logo">
+            <a class="web-name" href="/index.html">For you</a>
+        </div>
+        
+        <div class="nav-detail">
+            <a class="nav-button" href="./photo.html">photos</a>
+            <a class="nav-button" href="./music.html">music</a>
+            <a class="nav-button" href="./diray.html">diary</a>
+        </div>
+        <div class="hamburger">
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+              </div>
+            <!-- <i class="fa-solid fa-bars"></i> -->
+        </div>
+        
+    </nav>
+    <div class="tab-menu " id="tab-Menu">
+        <ul class="tab-menu-bar">
+            <li class="button-menu"><a class="button-menu" href="./index.html">Home</a></li>
+            <li class="button-menu"><a class="button-menu" href="./photo.html">photos</a></li>
+            <li class="button-menu"><a class="button-menu" href="./music.html">music</a></li>
+            <li class="button-menu"><a class="button-menu" href="./diray.html">diary</a></li>
+        </ul>
+    </div>
+    <div class="detail-diary">
+        <h2>
+            Diary For you
+            
+        </h2>
+        
+    </div>
+    <br>
+    <div id="diray-list" class="box-detail">
+        <!-- <div class="box-detail-card">
+            <p>18/12/65</p>
+        </div>
+        <div class="box-detail-card">
+            <p>18/12/65</p>
+        </div>
+        <div class="box-detail-card">
+            <p>18/12/65</p>
+        </div>
+        <div class="box-detail-card">
+            <p>18/12/65</p>
+        </div>
+        <div class="box-detail-card">
+            <p>18/12/65</p>
+        </div>
+        <div class="box-detail-card">
+            <p>18/12/65</p>
+        </div>
+        <div class="box-detail-card">
+            <p>18/12/65</p>
+        </div> -->
+        
+    </div>
+
+
+    <div id="modalDesc"  class=" modal " style="display: none;">
+        <div onclick="closeModal()" class="modal-bg"></div>
+        <div class="modal-page">
+            <div class="modal-detail">
+                <p id="mdd-name" class="text-xl">Detail</p>
+                <button onclick="closeModal()" class="btn">
+                    close
+                </button>
+
+            </div>
+            <br>
+                <p id="mdd-desc">Lorem iaudantium harum doloremque alias. Quae, vel ipsum quasi, voluptas, sit optio nemo magni numquam non dicta voluptates porro! Vero eveniet numquam sit aut vel eligendi officiis iste tenetur expedita. Delectus vero quibusdam adipisci in. Esse.</p>
+            <div class="lg:flex">
+                
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

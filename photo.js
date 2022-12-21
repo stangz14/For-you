@@ -1,6 +1,6 @@
 var allphoto = [{
     type:1,
-    img: "https://lh3.googleusercontent.com/2fL7gaDNhs0_K4uve4vRu1fajBJlIRQGM3BD10tqoOjibGdHmCH9hgmg-o2apumIJkgsyP2CPjIHWjAS_PLVQhOOjy_wPfDRGcg-HjvoOdnrBCMUpQhjRwfNIcrBrSalwNSGTTbb1U0=w1920-h1080"
+    img: "https://photos.google.com/album/AF1QipNHprkWw-eic0ElAFEI8V21VqDm9x0lQwjh8Wf9/photo/AF1QipNoJv3ymFK_BtkwjbvlVCdaUbh-snzU6vJvBSlq"
     },
     {
         type:2,
